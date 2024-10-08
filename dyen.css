@@ -329,6 +329,61 @@ nav a:hover{
     letter-spacing: normal;
 }
 
+/* help section */
+
+.help-presection {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.help-presection h6 {
+    font-size: larger;
+    color: #ffc200;
+}
+.help-presection h3 {
+    font-size: xx-large;
+    margin-top: 0px;
+}
+.help-section {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+
+}
+
+.help-section div {
+
+    text-align: center;
+    /* outline: blue solid; */
+    width: 200px;
+    padding: 70px;
+    box-shadow: 0px 0px 6px 8px rgba(219, 218, 218, 0.123);
+    
+}
+
+.help-section div h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+}
+
+.help-section div p {
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+
+.help-section div button {
+    padding: 20px 60px 20px 60px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.help-section div button:hover {
+    background-color: #ffc200;
+    border: none;
+}
+
 form {
     display: flex;
     align-items: center;
@@ -353,6 +408,11 @@ form {
     border-radius: 10px;
 
     }
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
